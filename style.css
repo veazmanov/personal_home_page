@@ -491,3 +491,11 @@ article a:not(.home-tile):not(.project-tile):hover {
     color: var(--muted);
     margin-bottom: 0.15rem;
 }
+
+.site-quote {
+    text-align: center;
+    color: var(--muted);
+    font-style: italic;
+    font-size: 0.95rem;
+    margin: -1rem 0 1.5rem;
+}

@@ -9,7 +9,7 @@ include "partials/header.php";
         <h2>Text</h2>
         <p>Blog & essays.</p>
     </a>
-    <a class="home-tile" href="slides.php">
+    <a class="home-tile" href="talks.php">
         <h2>Talks</h2>
         <p>Presentations and talks.</p>
     </a>
