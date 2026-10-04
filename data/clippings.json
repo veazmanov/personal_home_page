@@ -1,0 +1,86 @@
+[
+  {
+    "title": "Pour Un Logiciel De Correspondance Plutot Qu'Un Client Mail",
+    "url": "https://ploum.net/pour-un-logiciel-de-correspondance-plutot-quun-client-mail/",
+    "type": "text",
+    "author": "Ploum",
+    "note": "A similar idea to https://pennypost.vjbe.net",
+    "tags": [
+      "tech"
+    ],
+    "added": "2026-10-04"
+  },
+  {
+    "title": "Magnifica Humanitas (Papal Encyclical)",
+    "url": "https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html",
+    "type": "text",
+    "author": "Pope Leo XIV",
+    "tags": [
+      "ai",
+      "religion"
+    ],
+    "added": "2026-05-15"
+  },
+  {
+    "title": "AI veganism",
+    "url": "https://theconversation.com/ai-veganism-some-peoples-issues-with-ai-parallel-vegans-concerns-about-diet-260277",
+    "type": "text",
+    "note": "Some people's objections to AI parallel vegans' concerns about diet.",
+    "tags": [
+      "ai",
+      "ethics"
+    ]
+  },
+  {
+    "title": "A Brief History of the World (Storia Universale)",
+    "url": "https://samizdat.vjbe.net/2026-06-05.brief-history-of-the-world-11.pdf",
+    "type": "text",
+    "author": "Gianni Rodari",
+    "tags": [
+      "fiction",
+      "italian"
+    ],
+    "added": "2026-06-05"
+  },
+  {
+    "title": "Orangutan Driving a Golf Cart",
+    "url": "https://samizdat.vjbe.net/2026-05-14-Orangutan%20driving%20golf%20cart%20like%20in%20The%20Sopranos.publer.com.mp4",
+    "type": "video",
+    "note": "Like in The Sopranos.",
+    "tags": [
+      "animals",
+      "funny"
+    ],
+    "added": "2026-05-14"
+  },
+  {
+    "title": "The Last Question",
+    "url": "https://astronomy.org/moravian/C00-Last%20Question.pdf",
+    "type": "text",
+    "author": "Isaac Asimov",
+    "tags": [
+      "fiction",
+      "sci-fi"
+    ]
+  },
+  {
+    "title": "The Case Against Travel",
+    "url": "https://archive.is/1zsq4",
+    "type": "text",
+    "author": "Agnes Callard",
+    "tags": [
+      "essay",
+      "philosophy"
+    ]
+  },
+  {
+    "title": "De-google-ify Internet",
+    "url": "https://degooglisons-internet.org/en/",
+    "type": "text",
+    "author": "Framasoft",
+    "tags": [
+      "privacy",
+      "degoogling"
+    ]
+  }
+]

@@ -25,6 +25,10 @@ include "partials/header.php";
         <h2>Campaigns</h2>
         <p>Advocacy projects.</p>
     </a>
+      <a class="home-tile" href="clippings.php">
+          <h2>Web Clippings</h2>
+          <p>Cool stuff on the 'net.</p>
+      </a>
     <!-- <a class="home-tile" href="on_the_net.php">
         <h2>On the 'Net</h2>
         <p>Internet curiosities and delights.</p>

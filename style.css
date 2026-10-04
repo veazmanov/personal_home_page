@@ -499,3 +499,136 @@ article a:not(.home-tile):not(.project-tile):hover {
     font-size: 0.95rem;
     margin: -1rem 0 1.5rem;
 }
+/* =========================
+   Web clippings (clippings.php)
+========================= */
+
+.clip-intro {
+    color: var(--muted);
+    margin-bottom: 1.5rem;
+}
+
+.clip-filters,
+.clip-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.clip-pill,
+.clip-tag {
+    padding: 0.3rem 0.9rem;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    font-size: 0.9rem;
+    text-decoration: none !important;
+    transition: border-color 0.15s ease;
+}
+
+.clip-tag {
+    padding: 0.15rem 0.7rem;
+    font-size: 0.8rem;
+    color: var(--muted) !important;
+}
+
+.clip-tag span {
+    opacity: 0.6;
+}
+
+.clip-pill:hover,
+.clip-tag:hover {
+    border-color: var(--hover);
+}
+
+.clip-pill.is-active,
+.clip-tag.is-active {
+    background: var(--text);
+    border-color: var(--text);
+    color: var(--background) !important;
+}
+
+.clip-active-filter,
+.clip-empty {
+    color: var(--muted);
+    font-size: 0.9rem;
+}
+
+.clip-list {
+    list-style: none;
+    padding: 0;
+    margin: 2rem 0;
+}
+
+.clip {
+    padding: 1.1rem 0;
+    border-top: 1px solid var(--border);
+}
+
+.clip-head {
+    display: flex;
+    align-items: baseline;
+    gap: 0.6rem;
+}
+
+.clip-type {
+    flex-shrink: 0;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--muted);
+    min-width: 3.2rem;
+}
+
+.clip-title {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.clip-meta,
+.clip-note,
+.clip-inline-tags {
+    margin-left: 3.8rem;
+}
+
+.clip-meta {
+    color: var(--muted);
+    font-size: 0.85rem;
+}
+
+.clip-note {
+    margin-top: 0.35rem;
+    margin-bottom: 0;
+    font-size: 0.95rem;
+}
+
+.clip-inline-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin-top: 0.35rem;
+    font-size: 0.8rem;
+}
+
+.clip-inline-tags a {
+    color: var(--muted) !important;
+    text-decoration: none !important;
+}
+
+.clip-inline-tags a:hover {
+    color: var(--text) !important;
+}
+
+@media (max-width: 768px) {
+    .clip-head {
+        flex-direction: column;
+        gap: 0.1rem;
+    }
+
+    .clip-meta,
+    .clip-note,
+    .clip-inline-tags {
+        margin-left: 0;
+    }
+}
