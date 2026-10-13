@@ -6,6 +6,12 @@ include "partials/header.php";
 <section>
     <h2>My Writing</h2>
     <dl>
+        <dt>October 2026</dt>
+        <dd>
+            <a href="https://drive.vjbe.net/2026-10-13-hok-assignment-hands-on-v1.pdf" target="_blank">
+            Hands-on History: Benefits and Drawbacks
+            </a>
+        </dd>
         <dt>June 2026</dt>
         <dd>
             <a href="https://samizdat.vjbe.net/2026-06-16-Newton%20Sine%20Series-6.pdf" target="_blank">
