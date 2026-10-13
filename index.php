@@ -9,9 +9,9 @@ include "partials/header.php";
         <h2>Text</h2>
         <p>Blog & essays.</p>
     </a>
-    <a class="home-tile" href="talks.php">
-        <h2>Talks</h2>
-        <p>Presentations and talks.</p>
+    <a class="home-tile" href="slides.php">
+        <h2>Slides</h2>
+        <p>Slides from presentations and talks.</p>
     </a>
     <a class="home-tile" href="videos.php">
         <h2>Videos</h2>
