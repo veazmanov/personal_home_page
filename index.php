@@ -2,7 +2,7 @@
 $title = "Victor Elgersma-Azmanov";
 include "partials/header.php";
 ?>
-<a href="contact.php" class="top-contact-link">Contact</a>
+<a href="contact.php" class="top-contact-link"><span aria-hidden="true">✉️</span> Contact</a>
 <section class="home-grid">
 <div class="home-links">
     <a class="home-tile" href="text.php">

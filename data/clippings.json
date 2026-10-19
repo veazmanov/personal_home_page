@@ -11,24 +11,23 @@
     "added": "2026-10-04"
   },
   {
-    "title": "Magnifica Humanitas (Papal Encyclical)",
-    "url": "https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html",
-    "type": "text",
-    "author": "Pope Leo XIV",
+    "title": "The Abolition of Work",
+    "url": "https://theanarchistlibrary.org/library/bob-black-the-abolition-of-work",
+    "type": "text/essay",
+    "author": "Bob Black",
+    "note": "",
     "tags": [
-      "ai",
-      "religion"
+      "anarchism"
     ],
-    "added": "2026-05-15"
+    "added": "2026-10-17"
   },
   {
-    "title": "AI veganism",
-    "url": "https://theconversation.com/ai-veganism-some-peoples-issues-with-ai-parallel-vegans-concerns-about-diet-260277",
+    "title": "The Gossage-Vardebedian Papers",
+    "url": "https://gossage-vardebedian.com/original-papers-woody-allen/",
     "type": "text",
-    "note": "Some people's objections to AI parallel vegans' concerns about diet.",
+    "note": "A postal chess game goes wrong",
     "tags": [
-      "ai",
-      "ethics"
+        "attempts at humor"
     ]
   },
   {

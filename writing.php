@@ -8,7 +8,7 @@ include "partials/header.php";
     <dl>
         <dt>October 2026</dt>
         <dd>
-            <a href="https://drive.vjbe.net/2026-10-13-hok-assignment-hands-on-v1.pdf" target="_blank">
+            <a href="https://drive.vjbe.net/2026-10-13-hok-assignment-hands-on-v3.pdf" target="_blank">
             Hands-on History: Benefits and Drawbacks
             </a>
         </dd>
