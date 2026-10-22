@@ -1,5 +1,5 @@
 <?php
-$title = $title ?? "Victor Elgersma-Azmanov";
+$title = $title ?? "Victor Azmanov";
 ?>
 <!doctype html>
 <html lang="en">
@@ -17,7 +17,7 @@ $title = $title ?? "Victor Elgersma-Azmanov";
 <article>
 <div class="site-header">
     <a href="/">
-        <img src="https://samizdat.vjbe.net/2026-08-22-1787359966985.jpg" alt="Victor Elgersma-Azmanov" class="profile-pic">
+        <img src="https://samizdat.vjbe.net/2026-08-22-1787359966985.jpg" alt="Victor Azmanov" class="profile-pic">
     </a>
-    <h3><a href="/" class="site-header-name">Victor Elgersma-Azmanov</a></h3>
+    <h3><a href="/" class="site-header-name">Victor Azmanov</a></h3>
 </div>

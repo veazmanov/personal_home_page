@@ -1,5 +1,5 @@
 <?php
-$title = "Victor Elgersma-Azmanov";
+$title = "Victor Azmanov";
 include "partials/header.php";
 ?>
 <a href="contact.php" class="top-contact-link"><span aria-hidden="true">✉️</span> Contact</a>
@@ -29,6 +29,10 @@ include "partials/header.php";
           <h2>Web Clippings</h2>
           <p>Cool stuff on the 'net.</p>
       </a>
+    <a class="home-tile" href="https://memes.vjbe.net/">
+        <h2>Memes</h2>
+        <p>Memes I've collected from around the web.</p>
+    </a>
     <!-- <a class="home-tile" href="on_the_net.php">
         <h2>On the 'Net</h2>
         <p>Internet curiosities and delights.</p>
