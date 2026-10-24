@@ -10,6 +10,10 @@ include "partials/header.php";
 </li>
 
 <li>
+<a href="https://drive.vjbe.net/2026-09-19-hume-presentation-v1.pdf">Hume on Induction: Sense, Feeling, and Custom</a> (September 2026)
+</li>
+
+<li>
 <a href="https://samizdat.vjbe.net/2026-06-16-oldnews_presentation.pdf">Old News | Descartes Colloquium </a> (June 2026)
 </li>
 
