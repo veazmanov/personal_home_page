@@ -8,6 +8,7 @@
 //   tags         ["talk", ...]
 //   note         short line shown next to the date (HTML allowed)
 //   description  paragraph(s) under the video (HTML allowed)
+//   slides       URL of the slides, linked next to the date
 //   links        [{ "label": "YouTube", "url": "..." }]
 //
 // The filename (minus .json) is the video's slug: video.php?v=<slug>.
@@ -77,6 +78,7 @@ function video_player(array $v): string
 
 function video_meta(array $v): string
 {
-    $parts = array_filter([h(video_date($v['date'])), $v['note'] ?? '']);
+    $slides = !empty($v['slides']) ? '<a href="' . h($v['slides']) . '">Slides</a>' : '';
+    $parts = array_filter([h(video_date($v['date'])), $v['note'] ?? '', $slides]);
     return implode(' · ', $parts);
 }

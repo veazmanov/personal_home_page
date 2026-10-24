@@ -48,6 +48,7 @@ existing_tags=$(jq -rs '[.[].tags[]?] | unique | join(", ")' "$DIR"/*.json 2>/de
 tags=$(ask "Tags, comma-separated" talk)
 note=$(ask "Short note next to the date (optional)")
 description=$(ask "Description (optional, HTML allowed)")
+slides=$(ask "Slides URL (optional)")
 
 # --- Slug: date + title, lowercase, dashes ---
 title_slug=$(echo "$title" | iconv -f utf-8 -t ascii//TRANSLIT 2>/dev/null | tr '[:upper:]' '[:lower:]' \
@@ -63,13 +64,14 @@ fi
 # --- Build the entry (empty fields are dropped) ---
 entry=$(jq -n \
     --arg title "$title" --arg date "$date" --arg src "$src" \
-    --arg tags "$tags" --arg note "$note" --arg description "$description" '
+    --arg tags "$tags" --arg note "$note" --arg description "$description" --arg slides "$slides" '
     {
         title: $title,
         date: $date,
         tags: ($tags | split(",") | map(gsub("^\\s+|\\s+$"; "") | ascii_downcase) | map(select(. != ""))),
         note: $note,
         description: $description,
+        slides: $slides,
         src: $src
     }
     | with_entries(select(.value != "" and .value != []))
