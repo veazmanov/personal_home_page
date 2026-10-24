@@ -11,7 +11,7 @@
 //   slides       URL of the slides, linked next to the date
 //   links        [{ "label": "YouTube", "url": "..." }]
 //
-// The filename (minus .json) is the video's slug: video.php?v=<slug>.
+// The filename (minus .json) is the video's slug: video?v=<slug>.
 // HTML in note/description is output as-is, so only put your own markup there.
 
 function load_videos(): array
@@ -49,12 +49,12 @@ function video_date(string $date): string
 
 function video_url(string $slug): string
 {
-    return 'video.php?v=' . rawurlencode($slug);
+    return 'video?v=' . rawurlencode($slug);
 }
 
 function videos_url(string $tag = ''): string
 {
-    return 'videos.php' . ($tag !== '' ? '?tag=' . rawurlencode($tag) : '');
+    return 'videos' . ($tag !== '' ? '?tag=' . rawurlencode($tag) : '');
 }
 
 if (!function_exists('h')) {

@@ -7,7 +7,7 @@ if (!$v) {
     http_response_code(404);
     $title = "Video not found";
     include "partials/header.php";
-    echo '<h1>Video not found</h1><p><a href="videos.php">← All videos</a></p>';
+    echo '<h1>Video not found</h1><p><a href="videos">← All videos</a></p>';
     include "partials/footer.php";
     exit;
 }
@@ -15,7 +15,7 @@ if (!$v) {
 $title = $v['title'];
 include "partials/header.php";
 ?>
-<p class="video-back"><a href="videos.php">← All videos</a></p>
+<p class="video-back"><a href="videos">← All videos</a></p>
 <h1><?= h($v['title']) ?></h1>
 <p class="video-meta"><?= video_meta($v) ?></p>
 

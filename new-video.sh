@@ -83,7 +83,7 @@ echo
 [ "$(ask "Save as $file? (y/n)" y)" = "y" ] || { echo "Cancelled."; exit 0; }
 
 echo "$entry" > "$file"
-echo "✅ Saved $file — view it at video.php?v=$slug"
+echo "✅ Saved $file — view it at video?v=$slug"
 
 if [ -x ./deploy.sh ] && [ "$(ask "Deploy now? (y/n)" n)" = "y" ]; then
     ./deploy.sh

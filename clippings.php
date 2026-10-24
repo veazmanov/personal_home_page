@@ -26,7 +26,7 @@ $shown = array_filter($clippings, function ($c) use ($type, $tag) {
 
 function clip_url(array $params): string {
     $params = array_filter($params, fn($v) => $v !== '' && $v !== null);
-    return 'clippings.php' . ($params ? '?' . http_build_query($params) : '');
+    return 'clippings' . ($params ? '?' . http_build_query($params) : '');
 }
 
 function clip_domain(string $url): string {

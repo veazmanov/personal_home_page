@@ -14,7 +14,7 @@ include "partials/header.php";
         <h2>Words</h2>
         <p>Short essays and opinion pieces.</p>
     </a>
-    <a class="project-tile" href="writing.php">
+    <a class="project-tile" href="writing">
         <h2>Essays</h2>
         <p>History of science, mathematics.</p>
     </a>
