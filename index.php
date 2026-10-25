@@ -4,7 +4,7 @@ include "partials/header.php";
 ?>
 <div class="top-links">
     <a href="contact" class="top-contact-link"><span aria-hidden="true">✉️</span> Contact</a>
-    <a href="https://github.com/victorelgersma" class="top-contact-link"><span aria-hidden="true">🐙</span> GitHub</a>
+    <a href="https://github.com/veazmanov" class="top-contact-link"><span aria-hidden="true">🐙</span> GitHub</a>
 </div>
 <section class="home-grid">
 <div class="home-links">
