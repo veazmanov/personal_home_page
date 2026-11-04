@@ -3,7 +3,6 @@
 $title = "Text";
 include "partials/header.php";
 ?>
-<h1><?= htmlspecialchars($title) ?></h1>
 <p class="site-quote">&ldquo;In the beginning was the Word&rdquo;</p>
 
 <section class="project-grid">
