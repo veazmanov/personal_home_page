@@ -15,9 +15,11 @@ $title = $title ?? "Victor Azmanov";
 
 <body>
 <article>
+<?php if (!empty($showSiteHeader)): ?>
 <div class="site-header">
     <a href="/">
         <img src="https://samizdat.vjbe.net/2026-08-22-1787359966985.jpg" alt="Victor Azmanov" class="profile-pic">
     </a>
     <h3><a href="/" class="site-header-name">Victor Azmanov</a></h3>
 </div>
+<?php endif; ?>

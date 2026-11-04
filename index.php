@@ -1,5 +1,6 @@
 <?php
 $title = "Victor Azmanov";
+$showSiteHeader = true;
 include "partials/header.php";
 ?>
 <div class="top-links">
