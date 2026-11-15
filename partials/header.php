@@ -11,6 +11,7 @@ $title = $title ?? "Victor Azmanov";
     <title><?= htmlspecialchars($title) ?></title>
 
     <link rel="stylesheet" href="/style.css">
+    <link rel="me" href="https://orcid.org/0009-0005-2574-3948">
 </head>
 
 <body>
@@ -22,4 +23,6 @@ $title = $title ?? "Victor Azmanov";
     </a>
     <h3><a href="/" class="site-header-name">Victor Azmanov</a></h3>
 </div>
+<?php else: ?>
+<p class="back-link"><a href="<?= htmlspecialchars($backHref ?? '/') ?>">← <?= htmlspecialchars($backLabel ?? 'Home') ?></a></p>
 <?php endif; ?>

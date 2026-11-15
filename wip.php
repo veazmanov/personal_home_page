@@ -10,9 +10,9 @@ include "partials/header.php";
         <h2>Penny Post</h2>
         <p>A weekly letter-writing web app.</p>
     </a>
-    <a class="project-tile" href="https://oldnews.vjbe.net">
-        <h2>Old News</h2>
-        <p>An archive of old newspaper clippings and articles.</p>
+    <a class="project-tile" href="https://lib.vjbe.net">
+        <h2>Plain Old Text</h2>
+        <p>Plain text descriptions of historic sources.</p>
     </a>
     <a class="project-tile" href="https://on2.vjbe.net">
         <h2>On2 Salsa Practice</h2>

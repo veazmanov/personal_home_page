@@ -39,7 +39,7 @@ function h(?string $s): string {
 }
 ?>
 <h1><?= h($title) ?></h1>
-<p class="clip-intro">Cool stuff I've found on the 'net.</p>
+<p class="clip-intro">Cool stuff I've found on the 'net. See also my <a href="https://memes.vjbe.net/">meme collection</a>.</p>
 
 <nav class="clip-filters">
     <a class="clip-pill <?= $type === '' ? 'is-active' : '' ?>" href="<?= h(clip_url(['tag' => $tag])) ?>">All</a>

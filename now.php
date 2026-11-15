@@ -11,6 +11,6 @@ include "partials/header.php";
     <li>Organising a tutorial in ancient Greek mathematics for next year: <a href="https://ancient-mathematics.vjbe.net/">Ancient Mathematics</a>.</li>
     <li>Campaigning for the introduction of a physical student card for students: <a href="https://agoodidea.vjbe.net">A Good ID(ea)</a>.</li>
     <li>Actively developing <a href="https://pennypost.vjbe.net/correspondence">Penny Post</a>.</li>
-    <li>Proselytising my transcription project <a href="https://sources.vjbe.net">Plain Old Text</a>.</li>
+    <li>Proselytising my transcription project <a href="https://lib.vjbe.net">Plain Old Text</a>.</li>
 </ul>
 <?php include "partials/footer.php"; ?>

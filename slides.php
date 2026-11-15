@@ -14,7 +14,8 @@ include "partials/header.php";
 </li>
 
 <li>
-<a href="https://samizdat.vjbe.net/2026-06-16-oldnews_presentation.pdf">Old News | Descartes Colloquium </a> (June 2026)
+<a href="https://samizdat.vjbe.net/2026-06-16-oldnews_presentation.pdf">Old News | Descartes Colloquium</a> (June 2026)<br>
+<em>This project was renamed "Plain Old Text" in October 2026.</em>
 </li>
 
 <li>

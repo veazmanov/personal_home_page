@@ -6,6 +6,7 @@ include "partials/header.php";
 <div class="top-links">
     <a href="contact" class="top-contact-link"><span aria-hidden="true">✉️</span> Contact</a>
     <a href="https://github.com/veazmanov" class="top-contact-link"><span aria-hidden="true">🐙</span> GitHub</a>
+    <a href="https://orcid.org/0009-0005-2574-3948" class="top-contact-link" rel="me"><?php include "partials/orcid-icon.php"; ?> ORCID</a>
 </div>
 <section class="home-grid">
 <div class="home-links">
@@ -29,18 +30,10 @@ include "partials/header.php";
         <h2>Code</h2>
         <p>Web apps & experiments.</p>
     </a>
-    <a class="home-tile" href="campaigns">
-        <h2>Campaigns</h2>
-        <p>Advocacy projects.</p>
-    </a>
       <a class="home-tile" href="clippings">
           <h2>Web Clippings</h2>
-          <p>Cool stuff on the 'net.</p>
+          <p>Cool stuff on the 'net, and memes.</p>
       </a>
-    <a class="home-tile" href="https://memes.vjbe.net/">
-        <h2>Memes</h2>
-        <p>Memes I've collected from around the web.</p>
-    </a>
     <!-- <a class="home-tile" href="on_the_net">
         <h2>On the 'Net</h2>
         <p>Internet curiosities and delights.</p>

@@ -6,16 +6,19 @@ $v = find_video($_GET['v'] ?? '');
 if (!$v) {
     http_response_code(404);
     $title = "Video not found";
+    $backHref = "videos";
+    $backLabel = "All videos";
     include "partials/header.php";
-    echo '<h1>Video not found</h1><p><a href="videos">← All videos</a></p>';
+    echo '<h1>Video not found</h1>';
     include "partials/footer.php";
     exit;
 }
 
 $title = $v['title'];
+$backHref = "videos";
+$backLabel = "All videos";
 include "partials/header.php";
 ?>
-<p class="video-back"><a href="videos">← All videos</a></p>
 <h1><?= h($v['title']) ?></h1>
 <p class="video-meta"><?= video_meta($v) ?></p>
 

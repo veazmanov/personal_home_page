@@ -1,5 +1,15 @@
 [
   {
+    "title": "tfk's home page",
+    "url": "https://tfkls.dev",
+    "type": "text",
+    "author": "tfk",
+    "tags": [
+      "personal home pages"
+    ],
+    "added": "2026-10-28"
+  },
+  {
     "title": "Building a PC [outtakes]",
     "url": "https://www.youtube.com/watch?v=QG_-1RaX8Oo",
     "type": "video",
@@ -60,7 +70,7 @@
     "type": "text",
     "note": "A postal chess game goes wrong",
     "tags": [
-        "attempts at humor"
+      "attempts at humor"
     ]
   },
   {

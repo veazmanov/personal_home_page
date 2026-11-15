@@ -75,6 +75,20 @@ article a:not(.home-tile):hover {
     text-decoration-color: var(--text);
 }
 
+.back-link {
+    font-size: 0.9rem;
+    margin: 0 0 1rem;
+}
+
+article .back-link a {
+    color: var(--muted);
+    text-decoration: none;
+}
+
+article .back-link a:hover {
+    color: var(--text);
+}
+
 
 /* =========================
    Lists
@@ -509,6 +523,12 @@ article a:not(.home-tile):not(.project-tile):hover {
     margin-bottom: 0.15rem;
 }
 
+.orcid-icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.125em;
+}
+
 .site-quote {
     text-align: center;
     color: var(--muted);
@@ -712,11 +732,6 @@ article a:not(.home-tile):not(.project-tile):hover {
 
 .video-container .video-player {
     border-radius: 10px;
-}
-
-.video-back {
-    font-size: 0.9rem;
-    margin-bottom: 1rem;
 }
 
 @media (max-width: 768px) {
