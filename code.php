@@ -40,6 +40,10 @@ include "partials/header.php";
         <h2>Azmanov Sculptures</h2>
         <p>My grandfather's personal website for his sculptures. Maintained backup of azmanov.com.</p>
     </a>
+    <a class="project-tile" href="https://github.com/veazmanov/tufte-css">
+        <h2>Tufte CSS</h2>
+        <p>Fork of Tufte CSS: style your webpage like Edward Tufte's handouts.</p>
+    </a>
 </section>
 <?php include "partials/footer.php"; ?>
 
