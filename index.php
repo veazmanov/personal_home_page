@@ -30,6 +30,10 @@ include "partials/header.php";
         <h2>Code</h2>
         <p>Web apps & experiments.</p>
     </a>
+    <a class="home-tile" href="campaigns">
+        <h2>Campaigns</h2>
+        <p>Advocacy projects.</p>
+    </a>
       <a class="home-tile" href="clippings">
           <h2>Web Clippings</h2>
           <p>Cool stuff on the 'net, and memes.</p>

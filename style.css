@@ -743,3 +743,13 @@ article a:not(.home-tile):not(.project-tile):hover {
         padding: 0.85rem 1rem 1rem;
     }
 }
+
+.attribution {
+    color: #bbb;
+    font-size: 0.8rem;
+}
+
+/* Links shown as their own URL; let long ones wrap on narrow screens */
+.bare-links a {
+    overflow-wrap: anywhere;
+}

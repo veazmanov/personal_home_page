@@ -4,6 +4,9 @@ include "partials/header.php";
 ?>
     <h1><?= htmlspecialchars($title) ?></h1>
 
+<p><em>I am not a visionary. I'm an engineer. I'm happy with the people who are wandering around looking at the stars but I am looking at the ground and I want to fix the pothole before I fall in.</em><br>
+<span class="attribution">— Linus Torvalds, “The mind behind Linux”, TED interview (2016)</span></p>
+
 <section class="project-grid">
     <a class="project-tile" href="https://pennypost.vjbe.net">
         <h2>Penny Post</h2>
