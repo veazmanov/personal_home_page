@@ -529,6 +529,16 @@ article a:not(.home-tile):not(.project-tile):hover {
     vertical-align: -0.125em;
 }
 
+.cc-icon {
+    width: 1.1em;
+    height: 1.1em;
+    vertical-align: -0.2em;
+}
+
+.cc-icon + .cc-icon {
+    margin-left: 0.1em;
+}
+
 .site-quote {
     text-align: center;
     color: var(--muted);
