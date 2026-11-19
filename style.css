@@ -539,6 +539,22 @@ article a:not(.home-tile):not(.project-tile):hover {
     margin-left: 0.1em;
 }
 
+.copyright-link {
+    display: inline-block;
+    margin-top: 0.5rem;
+    color: inherit;
+    text-decoration: none;
+}
+
+.copyright-link:hover {
+    text-decoration: underline;
+}
+
+.copyright-mark {
+    font-size: 2.5rem;
+    margin: 0 0 1.5rem;
+}
+
 .site-quote {
     text-align: center;
     color: var(--muted);
