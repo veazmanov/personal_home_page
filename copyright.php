@@ -12,7 +12,7 @@ include "partials/header.php";
 
 <p>You can copy, change, translate, republish and sell any of it, for any purpose, without asking me and without paying me. You don't have to credit me either.</p>
 
-<p>Credit is still appreciated, though. If something here was useful to you, a link back or a short <a href="/contact">email</a> would make my day. But I won't sue you if you forget to do this.</p>
+<p>Credit is still appreciated, though. If something here was useful to you, a link back or a short <a href="/contact">email</a> would make my day. But I won't sue you if you forget to do this. :)</p>
 
 <h2>Why CC0</h2>
 
