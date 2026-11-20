@@ -7,10 +7,10 @@ include "partials/header.php";
 <p><em>Things I am playing with at the moment. Last updated November 2026.</em></p>
 
 <ul class="bare-links">
-    <li>Taking the courses <em>Philosophy of Science 2</em> and <em>History of Knowledge 2</em> at Utrecht University. Here are my reading lists for Philosophy of Science 2 and History of Knowledge 2:
+    <li>Taking the courses <em>Philosophy of Science 2</em> and <em>History of Knowledge 2</em> at Utrecht University. Here are my reading lists:
         <ul>
-            <li><a href="https://notes.vjbe.net/4v5bf/">https://notes.vjbe.net/4v5bf/</a></li>
-            <li><a href="https://notes.vjbe.net/86k4a/">https://notes.vjbe.net/86k4a/</a></li>
+            <li>Philosophy of Science 2: <a href="https://notes.vjbe.net/4v5bf/">https://notes.vjbe.net/4v5bf/</a></li>
+            <li>History of Knowledge 2: <a href="https://notes.vjbe.net/86k4a/">https://notes.vjbe.net/86k4a/</a></li>
         </ul>
     </li>
     <li>Organising a tutorial in ancient Greek mathematics for next year, Ancient Mathematics:
