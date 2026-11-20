@@ -12,13 +12,12 @@ include "partials/header.php";
 
 <p>You can copy, change, translate, republish and sell any of it, for any purpose, without asking me and without paying me. You don't have to credit me either.</p>
 
-<p>Credit is still appreciated, though. If something here was useful to you, a link back or a short <a href="/contact">email</a> would make my day.</p>
+<p>Credit is still appreciated, though. If something here was useful to you, a link back or a short <a href="/contact">email</a> would make my day. But I won't sue you if you forget to do this.</p>
 
 <h2>Why CC0</h2>
 
-<p>By some strange historical contingency, I have been given the legal right to sue anyone who copies my work without my permission. I think this right is antithetical to progress, and I relinquish it in the strongest possible terms. Everything I make is, in effect, donated to the public domain.</p>
+<p>By some strange historical contingency, I have been given the legal right to sue anyone who copies my work without my permission. My children will inherit this right, which will expire seventy years after my death. This is known as copyright. In the context of 'academic scholarship' or 'contributions to knowledge', I think it is a bad idea. Trying to live according to my principles compels me to relinquish this right. Everything I make is, in effect, donated to the public domain.</p>
 
-<p>Most of what I publish is notes, transcriptions, teaching material and small tools. Those are most useful when people can reuse them without worrying about licences. CC0 is the simplest way I know to say "take it".</p>
 
 <h2>What is not covered</h2>
 
